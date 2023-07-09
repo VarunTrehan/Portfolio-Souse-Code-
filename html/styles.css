@@ -1,0 +1,812 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size:62.5%;
+}
+
+/* This is css of Main page  */
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #eff4fd;
+}
+
+nav{
+    display: flex;
+    width:84%;
+    margin: auto;
+    padding: 2.0rem auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 1.0rem 2.0rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: orange;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 9%;
+}
+
+.detel h1{
+    font-size: 5.0rem;
+    column-count: #212121;
+    margin-bottom: 2.0rem;
+}
+
+span{
+    color: orange;
+}
+
+.detel p{
+    color: #555;
+    font-size: 2.0rem;
+    line-height: 2.2rem;
+}
+
+.detel a{
+    background: #212121;
+    padding: 1.0rem 1.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 2.0rem 0;
+    border-radius: 0.5rem;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 10.0rem;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.downl a:hover{
+    color: orange;
+}
+
+.icons nav ul li a:hover{
+    color: #e1b12c;
+    box-shadow: 0 1.5rem 1.5rem #EAB543;
+}
+
+/* This is  css of About  */
+
+.about{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #eff4fd;
+}
+
+.details{
+    margin-left: 10%;
+    margin-bottom: 17%;
+}
+
+.details h1 {
+    font-size: 5.0rem;
+    column-count: #212121;
+}
+
+span{
+    color: orange;
+}
+
+.details p{
+    width: 50.0rem;
+    color: #555;
+    word-spacing: normal;
+    font-size: 1.5rem;
+    line-height: 2;
+    position: absolute;
+    right: 20.0rem;
+    bottom: 18.0rem;
+}
+
+.details img{
+    width: 40.0rem;
+    position: absolute;
+    left: 15.0rem;
+    bottom: 6.0rem;
+}
+
+.read a{
+    background-color: #212121;
+    padding: 1.0rem 0.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    border-radius: 0.5rem;
+    position: absolute;
+    right: 63.5rem;
+    bottom: 12.0rem;
+}
+
+.read a:hover{
+    color: orange;
+}
+
+/* This is css of service  */
+
+.service{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #eff4fd;
+}
+
+.serv h1 span{
+    color: orange;
+}
+
+.serv{
+    text-align: center;
+    font-size: 2.0rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52.0rem;
+  }
+
+  
+  .section-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1.0rem;
+  }
+  
+  .service-box {
+    width: 30.0rem;
+    background-color: rgb(234, 234, 106);
+    border: 0.3rem solid rgb(249, 183, 59);
+    text-align: center;
+    padding: 2.0rem;
+    margin-bottom: 150px;
+  }
+  
+  .rm a{
+    margin-top: auto;
+    background-color: #212121;
+    padding: 1.0rem 0.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 13.0rem;
+  }
+
+  /* This is css of Hire  */
+
+  .service{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding:6rem;
+    background-color: #eff4fd;
+  }
+
+  .port{
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 14rem;
+  }
+
+  .port form{
+    text-align: center;
+    max-width: 50rem;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+  }
+
+  .port form input,
+  .port form textarea{
+    width: 100%;
+    color: var(--text-color);
+    background-color: #f9ca24;
+    margin-bottom: .8rem;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem;
+  }
+
+  .port form textarea{
+    resize: none;
+  }
+
+  .formbtn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .formBtn .btn{
+    background: #212121;
+    padding: 1.0rem 1.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 2.0rem 0;
+    border-radius: 0.5rem;
+  }
+
+  .formBtn .btn:hover{
+    columns: orange;
+  }
+
+  .formBtn .btn{
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  /* footer css  */
+
+  footer{
+    padding: 1.5rem 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer p{
+    color: #212121;
+  }
+
+  footer a{
+    display: inline-flex;
+    justify-content: center;
+    color: var(--text-color);
+    background-color: var(--hover-color);
+    padding: .6rem;
+    border-radius: 5px;
+  }
+
+/* This is for mobile 320px  */
+
+ @media (max-width:320px){
+    html{
+        font-size: 20%;
+    }
+
+    nav{
+        display: flex;
+        width:84%;
+        margin: auto;
+        padding: 2.0rem 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .detel{
+        margin-left: 8%;
+        margin-top: 9%;
+    }
+    
+    .detel h1{
+        font-size: 5.0rem;
+        column-count: #212121;
+        margin-bottom: 2.0rem;
+    }
+    
+    span{
+        color: orange;
+    }
+    
+    .detel p{
+        color: #555;
+        font-size: 3.0rem;
+        line-height: 3.0rem;
+    }
+    
+    .detel a{
+        background: #212121;
+        padding: 1.0rem 1.8rem;
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+        display: inline-block;
+        margin: 2.0rem 0;
+        border-radius: 0.5rem;
+    }
+    
+    .images img{
+        height: 50%;
+        position: absolute;
+        left: 20%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+
+    .details p{
+        width: 50.0rem;
+        color: #555;
+        word-spacing: normal;
+        font-size: 2.0rem;
+        line-height: 2;
+        position: absolute;
+        right: 40.0rem;
+        bottom: 80.0rem;
+    }
+    
+    .details img{
+        width: 70.0rem;
+        position: absolute;
+        left: 15.0rem;
+        bottom: 6.0rem;
+    }
+
+    .serv{
+        text-align: center;
+        font-size: 2.0rem;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 52.0rem;
+      }
+    
+      
+      .section-services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 1.0rem;
+      }
+    
+      .service-box {
+        width: 30.0rem;
+        background-color: rgb(234, 234, 106);
+        border: 0.3rem solid rgb(249, 183, 59);
+        text-align: center;
+        padding: 2.0rem;
+        margin-bottom: 1rem;
+      }
+    
+
+}
+
+/* This is for mobile 375px  */
+
+ @media (min-width:375px){
+    html{
+      font-size:30%
+    }
+  
+    .images img{
+            height: 50%;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            transition: bottom 1s, left 1s;
+        }
+  
+        .details p{
+            width: 50.0rem;
+            color: #555;
+            word-spacing: normal;
+            font-size: 1.5rem;
+            line-height: 2;
+            position: absolute;
+            right: 20.0rem;
+            bottom: 53.0rem;
+        }
+    
+        .details img{
+            width: 40.0rem;
+            position: absolute;
+            left: 30.9rem;
+            bottom: 10.0rem;
+        }
+  
+      .read a{
+        background-color: #212121;
+        padding: 1.0rem 0.8rem;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        display: inline-block;
+        border-radius: 0.5rem;
+        position: absolute;
+        right: 62.5rem;
+        bottom: 47.0rem;
+     }
+
+    .serv{
+      text-align: center;
+      font-size: 2.0rem;
+      margin-bottom:9.0rem
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+    
+    .section-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.1rem;
+  }
+    
+    .service-box {
+      width: 25.0rem;
+      background-color: rgb(234, 234, 106);
+      border: 0.3rem solid rgb(249, 183, 59);
+      text-align: center;
+      padding: 0.6rem;
+      margin-bottom: 2.0rem;
+    }
+    
+    .rm a{
+      margin-top: auto;
+      background-color: #212121;
+      padding: 1.0rem 0.8rem;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      display: inline-block;
+      border-radius: 0.5rem;
+      position: absolute;
+      bottom: 13.0rem;
+    }
+    
+  }
+
+  /* fot mobile 425px  */
+
+   @media (min-width:425px){
+    html{
+      font-size:34%;
+    }
+  
+    .images img{
+          height: 50%;
+          position: absolute;
+          left: 50%;
+          bottom: 0;
+          transform: translateX(-50%);
+          transition: bottom 1s, left 1s;
+      }
+  
+    .details p{
+          width: 50.0rem;
+          color: #555;
+          word-spacing: normal;
+          font-size: 1.5rem;
+          line-height: 2;
+          position: absolute;
+          right: 20.0rem;
+          bottom: 44.0rem;
+      }
+  
+      .details img{
+          width: 30.0rem;
+          position: absolute;
+          left: 35.9rem;
+          bottom: 9.0rem;
+      }
+  
+      .read a{
+      background-color: #212121;
+      padding: 1.0rem 0.8rem;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      display: inline-block;
+      border-radius: 0.5rem;
+      position: absolute;
+      right: 63.5rem;
+      bottom: 38.0rem;
+   }
+
+   .serv{
+    text-align: center;
+    font-size: 2.0rem;
+    margin-bottom:9.0rem
+}
+  .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  
+  .section-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.1rem;
+}
+  
+  .service-box {
+    width: 30.0rem;
+    background-color: rgb(234, 234, 106);
+    border: 0.3rem solid rgb(249, 183, 59);
+    text-align: center;
+    padding: 2.0rem;
+    margin-bottom: 2.0rem;
+  }
+  
+  .rm a{
+    margin-top: auto;
+    background-color: #212121;
+    padding: 1.0rem 0.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 13.0rem;
+  }
+}
+
+  /* Media tool for tab 768px */
+
+   @media (min-width:768px){
+    html{
+        font-size: 45%;
+    }
+
+    .detel p{
+        font-size: 2.0rem;
+    }
+
+    .images img{
+        height: 60%;
+        position: absolute;
+        left: 60%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+
+    .details p{
+        width: 50.0rem;
+        color: #555;
+        word-spacing: normal;
+        font-size: 1.5rem;
+        line-height: 2;
+        position: absolute;
+        right: 10.0rem;
+        bottom: 18.0rem;
+    }
+
+    .details img{
+        width: 40.0rem;
+        position: absolute;
+        left: 0.1rem;
+        bottom: 5.0rem;
+    }
+
+   .read a{
+    background-color: #212121;
+    padding: 1.0rem 0.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    border-radius: 0.5rem;
+    position: absolute;
+    right: 53.5rem;
+    bottom: 12.0rem;
+ }
+
+  .details img{
+    width: 40.0rem;
+    position: absolute;
+    left: 1.0rem;
+    bottom: 9.0rem;
+}
+}
+
+.read a{
+        background-color: #212121;
+        padding: 1.0rem 0.8rem;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        display: inline-block;
+        border-radius: 0.5rem;
+        position: absolute;
+        right: 63.5rem;
+        bottom: 12.0rem;
+     } 
+
+/* for laptop 1024px */
+
+ @media (min-width:1024px){
+
+    html{
+        font-size: 50%;
+    }
+    .images img{
+        height: 80%;
+        position: absolute;
+        left: 60%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+
+    .details p{
+        width: 50.0rem;
+        color: #555;
+        word-spacing: normal;
+        font-size: 1.5rem;
+        line-height: 2;
+        position: absolute;
+        right: 20.0rem;
+        bottom: 18.0rem;
+    }
+
+    .details img{
+        width: 40.0rem;
+        position: absolute;
+        left: 9.9rem;
+        bottom: 9.0rem;
+    }
+
+    .read a{
+        background-color: #212121;
+        padding: 1.0rem 0.8rem;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        display: inline-block;
+        border-radius: 0.5rem;
+        position: absolute;
+        right: 63.5rem;
+        bottom: 14.0rem;
+     }
+
+    .serv{
+        text-align: center;
+        font-size: 2.0rem;
+        margin-bottom:2.0rem
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+      
+    .section-services {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 0.1rem;
+    }
+      
+    .service-box {
+        width: 25.0rem;
+        background-color: rgb(234, 234, 106);
+        border: 0.3rem solid rgb(249, 183, 59);
+        text-align: center;
+        padding: 0.6rem;
+        margin-bottom: 4.0rem;
+      }
+      
+      .rm a{
+        margin-top: auto;
+        background-color: #212121;
+        padding: 1.0rem 0.8rem;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        display: inline-block;
+        border-radius: 0.5rem;
+        position: absolute;
+        bottom: 12.0rem;
+      }
+} 
+
+  /* For laptop 1440px  */
+
+ @media (min-width:1440px){
+
+    html{
+        font-size: 63%;
+    }
+
+    .images img{
+        height: 90%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+
+    .details p{
+        width: 50.0rem;
+        color: #555;
+        word-spacing: normal;
+        font-size: 1.5rem;
+        line-height: 2;
+        position: absolute;
+        right: 20.0rem;
+        bottom: 20.0rem;
+    }
+
+    .details img{
+        width: 35.0rem;
+        position: absolute;
+        left: 15.9rem;
+        bottom: 14.0rem;
+    }
+
+  .read a{
+    background-color: #212121;
+    padding: 1.0rem 0.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    border-radius: 0.5rem;
+    position: absolute;
+    right: 63.5rem;
+    bottom: 15.0rem;
+ }
+} 
+
+/* for laptop 4k  */
+
+ @media (min-width:2560px){
+    html{
+      font-size:100%;
+    }
+}  
+
